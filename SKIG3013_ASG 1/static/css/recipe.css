@@ -1,0 +1,97 @@
+/* TONNY TANG CHIEW LIH 284990 */
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+h1{
+  color: #A4A400;
+  background-color: #F0F0F0;
+  font-size: 18pt;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-decoration: underline;
+  letter-spacing: 0.25em;
+}
+
+h2{
+  color:  #404040;
+  font-size: 11pt;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: lighter;
+}
+
+body {
+  background-image: url('/static/img/silverware.jpg');
+  background-size: cover;
+  background-repeat: no-repeat; 
+}
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+header h1 {
+  font-size: 22pt;
+  font-weight: bold;
+  text-align: center;
+}
+
+hr {
+  border: 1px solid #404040; 
+  margin: 20px 0; 
+}
+/*--------------------------------------------------------------
+# Ingredient 
+--------------------------------------------------------------*/
+.ingredient ul{
+  list-style-image: url("/static/img/pie_bullet.png");
+  color:  #404040;
+  font-size: 11pt;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*--------------------------------------------------------------
+# Directions 
+--------------------------------------------------------------*/
+.direction ol{
+  color:  #404040;
+  font-size: 11pt;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.direction ul{
+  list-style-image: url("/static/img/pie_bullet.png");
+}
+
+/*--------------------------------------------------------------
+# Comments
+--------------------------------------------------------------*/
+.div-1, .div-2, .div-3 {
+  position: relative;
+  width: 85%;
+  background-color: #FFFFA8; 
+  margin: auto;
+  font-style: italic;
+  margin-bottom: 20px; 
+}
+
+/*--------------------------------------------------------------
+# Links
+--------------------------------------------------------------*/
+.navigation p {
+  text-align: left;
+  margin-left: 10px;
+  line-height: 10px;
+}
+
+.link a{
+  color: #A4A400;
+  background-color: #F0F0F0;
+  font-size: 11pt;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.copyright {
+  color:  #404040;
+  font-size: 11pt;
+  font-family: 'Courier New', monospace;
+  text-align: right;
+  margin-right: 950px;
+}
+
